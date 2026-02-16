@@ -1,0 +1,24 @@
+Algoritmo "relogio"
+//Fazer um programa para ler uma dura��o de tempo em segundos, da� imprimir na tela esta dura��o no
+//formato horas:minutos:segundos.
+Var
+   totalsegundos : inteiro
+   horas : inteiro
+   minutos : inteiro
+   segundos : inteiro
+
+
+
+Inicio
+      escreval("Digite o total de segundos: ")
+      leia(totalsegundos)
+      horas <- totalsegundos div 3600
+      minutos <- (totalsegundos mod 3600) div 60
+      segundos <- (totalsegundos mod 3600) mod 60
+      escreval(horas, ":", minutos, ":", segundos)
+
+       
+
+
+
+Fimalgoritmo
