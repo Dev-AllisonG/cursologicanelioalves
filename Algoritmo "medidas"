@@ -1,0 +1,33 @@
+Algoritmo "medidas"
+Problema "medidas"
+Fazer um programa para ler tr�s medidas A, B e C. Em seguida, calcular e mostrar (imprimir os dados
+com quatro casas decimais):
+a) a �rea do quadrado que tem lado A
+b) a �rea do tri�ngulo ret�ngulo que base A e altura B
+c) a �rea do trap�zio que tem bases A e B, e altura C
+
+Var
+   medidaA : real
+   medidaB : real
+   medidaC: real
+   quadra : real
+   ret : real
+   trap : real
+   
+
+Inicio
+      escreval("Digite a medida A: ")
+      leia(medidaA)
+      escreval("Digite a medida B: ")
+      leia(medidaB)
+      escreval("Digite a medida C: ")
+      leia(medidaC)
+      quadra <- medidaA ^ 2
+      ret <- medidaA * medidaB / 2
+      trap <- (medidaA + medidaB) * medidaC / 2
+      
+      escreval("Area do quadrado: ", quadra:1:4, "Area do retangulo: ", ret:1:4, "Area do trap�zio: ", trap:1:4)
+      
+
+
+Fimalgoritmo
