@@ -1,0 +1,26 @@
+Algoritmo "pagamento"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Antonio Carlos Nicolodi 
+// Descri��o   : Aqui voc� descreve o que o programa faz! (fun��o)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 10/02/2026
+Var
+   nome: caractere
+   valorhora : real
+   horastrab : real
+   pagamento : real
+
+
+Inicio
+      escreval("Qual o nome do trabalhador: ")
+      leia(nome)
+      escreval("qual o valor das horas de trabalho: ")
+      leia(valorhora)
+      escreval("Quantas horas ele trabalhou: ")
+      leia(horastrab)
+      pagamento <- horastrab * valorhora
+      escreval("O ", nome ,  "trabalhou" , valorhora ,"horas", "seu pagamento �: ", pagamento)
+      
+
+
+Fimalgoritmo
