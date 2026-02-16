@@ -1,0 +1,20 @@
+Algoritmo "consumo"
+Problema "consumo"
+Fazer um programa para ler a dist�ncia total (em km) percorrida por um carro, bem como o total de
+combust�vel gasto por este carro ao perco
+Var
+   distancia : real
+   combustivel : real
+   consumo : real
+
+
+Inicio
+      escreval("Qual a distancia percorrida: ")
+      leia(distancia)
+      escreval("Combustivel gasto: ")
+      leia(combustivel)
+      consumo <- distancia / combustivel
+      escreval("Voc� percorreu: ", distancia," metros e gastou: ", consumo:5:3)
+
+
+Fimalgoritmo
