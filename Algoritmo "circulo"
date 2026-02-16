@@ -1,0 +1,17 @@
+Algoritmo "circulo"
+Var
+   pin : real
+   area : real
+   raio: real
+
+
+Inicio
+      escreval("Digite: o do circulo: ")
+      leia(raio)
+      pin <- 3.14159
+      area <- pin * (raio ^ 2)
+      escreval("A sua area � de: ", area)
+
+
+
+Fimalgoritmo
