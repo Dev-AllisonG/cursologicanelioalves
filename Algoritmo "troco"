@@ -1,0 +1,26 @@
+Algoritmo "trooco"
+
+Var
+   produto : real
+   quantidade : inteiro
+   dinheiro : real
+   troco : real
+   valorprod : real
+   
+
+
+Inicio
+     escreval("Valor do produto: ")
+     leia(produto)
+     escreval("Quantos produtos ir� levar: ")
+     leia(quantidade)
+     valorprod <- produto * quantidade
+     escreval("Custar�: ", valorprod)
+     escreval("Entregue o valor: ")
+     leia(dinheiro)
+     troco <- dinheiro - valorprod
+     escreval("O pagamento foi efetuado, pegue seu troco: ", troco)
+
+
+
+Fimalgoritmo
