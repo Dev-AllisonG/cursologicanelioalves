@@ -1,0 +1,29 @@
+Algoritmo "idade"
+
+Var
+   idadepessoa1 : inteiro
+   idadepessoa2 : inteiro
+   nomePrimeira : caractere
+   nomeSegunda : caractere
+   mediaidade : real
+Inicio
+
+      Escreval("Digite o nome da primeira pessoa: ")
+      leia(nomePrimeira)
+      Escreval("Digite a idade da primeira pessoa: ")
+      leia(idadepessoa1)
+      Escreval
+      Escreval("Digite o nome da segunda pessoa: ")
+      leia(nomeSegunda)
+      escreval("Digite a idade da segunda pessoa: ")
+      leia(idadepessoa2)
+      
+      mediaidade <- (idadepessoa1 + idadepessoa2) / 2
+      escreval("A media de idade de:", nomePrimeira , "e" , nomeSegunda, "�", mediaidade:8:1)
+
+      
+      
+
+
+
+Fimalgoritmo
