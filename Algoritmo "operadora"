@@ -1,0 +1,18 @@
+Algoritmo "operadora"
+
+Var
+   plano,taxa: real
+   tempo1 : inteiro
+Inicio
+   escreval("digite quanto tempo foi gasto: ")
+   leia(tempo1)
+   plano <- 50.00
+   se tempo1 > 100 ent�o
+      taxa <- plano + 2 * (tempo1 - 100)
+      sen�o
+           taxa <- plano
+      fimse
+      escreval("Valor a pagar: R& ", taxa:4:2)
+           
+
+Fimalgoritmo
