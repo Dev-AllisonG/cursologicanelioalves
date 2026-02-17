@@ -1,0 +1,26 @@
+Algoritmo "baskara condicional"
+
+Var
+   coeficienteA,coeficienteB,coeficienteC,x1,x2,delta : real
+
+
+Inicio
+       escreval("Digite o CoeficienteA: ")
+       leia(coeficienteA)
+       escreval("Digite o CoeficienteB: ")
+       leia(coeficienteB)
+       escreval("Digite o CoeficienteC: ")
+       leia(coeficienteC)
+       delta <- coeficienteB * coeficienteB - 4 * coeficienteA * coeficienteC
+       se delta < 0 ent�o
+          escreval("Esta equa��o n�o possui ra�zes reais")
+          sen�o
+               x1 <- (-coeficienteB + raizq(delta)) / (2 * coeficienteA)
+               x2 <- (-coeficienteB - raizq(delta))  / (2 * coeficienteA)
+               escreval(x1:4:3)
+               escreval(x2:4:3)
+          fimse
+       
+
+
+Fimalgoritmo
