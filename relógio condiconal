@@ -1,0 +1,22 @@
+Algoritmo "relogio condicional"
+
+Var
+     horas : inteiro
+
+
+Inicio
+      escreval("digite a hora: ")
+      leia(horas)
+      
+      se horas <= 12 ent�o
+         escreval("bom dia")
+         sen�o
+              se horas <18 ent�o
+              escreval("Boa tarde")
+              sen�o
+                   escreval("Boa noite")
+                   fimse
+              fimse
+
+
+Fimalgoritmo
