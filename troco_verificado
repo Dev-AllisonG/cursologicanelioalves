@@ -1,0 +1,30 @@
+Algoritmo "troco_verificado"
+
+Var
+   valorRecebido,valortotal, precoUnitario,troco,faltam : real
+   quantidade : inteiro
+
+
+Inicio
+      escreval("Digite o pre�o do produto que ir� comprar: ")
+      leia(precoUnitario)
+      escreval("quantos produtos ir� levar: ")
+      leia(quantidade)
+      escreval("Digite o pagamento")
+      leia(valorRecebido)
+      valortotal <- precoUnitario * quantidade
+      se valorRecebido >= valortotal entao
+         troco <- valorRecebido - valortotal
+         escreval("Seu troco", troco)
+         sen�o
+              se valorRecebido < valortotal entao
+                 faltam <- valortotal - valorRecebido
+                 escreval("falta: ", faltam)
+                 fimse
+
+
+
+      
+
+
+Fimalgoritmo
