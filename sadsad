@@ -1,0 +1,15 @@
+print("Meus estudos em lógica são para melhorar minha base, para que eu não seja um dependente de ia ou um péssimo eng de software")import pygame
+
+
+ascii_art = r"""
+           _..--""---.                                
+          /   zero    ".                              
+          `    gotch u  l                              
+          |'._  ,._ l/"\                              
+          |  _J<__/.v._/                              
+           \( ,~._,,,,-)                              
+            `-\' \`,,j|                               
+               \_,____J                               
+"""
+
+
