@@ -1,0 +1,20 @@
+Algoritmo "temperatura condicional inversa"
+
+Var
+      escala : caractere
+      f,c, temperatura : real
+
+
+Inicio
+         escreval("Digite qual escala ira usar: (C/F)")
+         leia(escala)
+         escreval("Digite a temperatura: ")
+         leia(temperatura)
+         
+         se escala = "C" entao
+            f <- (9/5) * temperatura + 32
+            escreval("a temperatura em fahrenheit é: ", f2:2)
+            senão
+                 c <- (5/9) * (temperatura - 32)
+                 escreval("a temperatura é celsius: ", c:2:2)
+                 fimse
