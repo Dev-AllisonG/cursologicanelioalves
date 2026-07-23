@@ -1,0 +1,25 @@
+idade,soma,contador : inteiro
+media : real
+
+
+Inicio
+      escreva("Digite idades: ")
+      leia(idade)
+      contador <- 0  soma <- 0
+      enquanto idade >= 0 faca
+      se idade >= 0 entao
+         soma <- soma + idade
+         contador <- contador + 1
+         leia(idade)
+         
+         senão
+              escreva("Impossível calcular")
+         fimse
+
+fimenquanto
+           se contador = 0 entao
+           escreva("impossível prosseguir")
+           fimse
+
+           media <- soma / contador
+           escreva(media)
