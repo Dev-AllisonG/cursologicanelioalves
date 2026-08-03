@@ -1,0 +1,40 @@
+Algoritmo "combustivel"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Nelio Alves
+// Descrição   : avaliação de qual combustivel é mais usado
+// Autor(a)    : allison
+// Data atual  : 02/08/2026
+Var
+codigo : inteiro
+alcool : inteiro
+gasolina : inteiro
+diesel : inteiro
+
+Inicio
+      codigo <- 0
+      alcool <- 0
+      gasolina <- 0
+      diesel <- 0
+      enquanto codigo <> 4 faca
+      escreval("Informe um codigo (1, 2, 3) ou 4 para parar: ")
+      leia(codigo)
+      se codigo = 1 entao
+         alcool <- alcool + 1
+         senao
+         se codigo = 2 entao
+            gasolina <- gasolina + 1
+            senao
+            se codigo = 3 entao
+            diesel <- diesel + 1
+               fimse
+            fimse
+         fimse
+
+fimenquanto
+escreva("MUITO OBRIGADO")
+escreval()
+escreval("gasolina", gasolina)
+escreval("alcool", alcool)
+escreval("diesel" ,diesel)
+
+Fimalgoritmo
