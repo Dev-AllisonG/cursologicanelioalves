@@ -1,0 +1,30 @@
+Algoritmo "validacao_de_nota"
+
+Var
+   nota1, nota2, media : real
+
+Inicio
+
+   escreval("Digite a primeira nota: ")
+   leia(nota1)
+
+   enquanto nota1 > 10 ou nota1 < 0 faca
+      escreval("Nota invalida")
+      escreval("Digite uma nota valida de 0 a 10: ")
+      leia(nota1)
+   fimenquanto
+
+   escreval("Digite a segunda nota: ")
+   leia(nota2)
+
+   enquanto nota2 > 10 ou nota2 < 0 faca
+      escreval("Nota invalida")
+      escreval("Digite uma nota valida de 0 a 10: ")
+      leia(nota2)
+   fimenquanto
+
+   media <- (nota1 + nota2) / 2
+
+   escreval("MEDIA = ", media)
+
+Fimalgoritmo
