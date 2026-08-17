@@ -1,0 +1,32 @@
+Algoritmo "pares_consecutivos"
+Var
+   x, soma, contador : inteiro
+
+Inicio
+
+   escreva("Digite um numero inteiro: ")
+   leia(x)
+
+   enquanto x <> 0 faca
+
+      se x % 2 = 1 entao
+          x < x + 1
+          fimse
+          
+         contador <- 0
+         soma <- 0
+
+         enquanto contador < 5 faca
+            contador <- contador + 1
+            soma <- soma + x
+            x <- x + 2
+         fimenquanto
+
+
+      escreval("Digite um numero inteiro: ")
+      leia(x)
+      escreval(soma)
+
+   fimenquanto
+
+Fimalgoritmo
