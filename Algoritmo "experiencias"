@@ -1,0 +1,59 @@
+Algoritmo "experiencias"
+
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz!
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 31/08/2026
+
+Var
+   n, i, qtd, total, coelhos, ratos, sapos : inteiro
+   pc, pr, ps : real
+   tipos : caractere
+
+Inicio
+   coelhos <- 0
+   ratos <- 0
+   sapos <- 0
+   total <- 0
+
+   escreval("Quantos casos de teste serao digitados? ")
+   leia(n)
+
+   para i de 1 ate n faca
+      escreval("Quantidade de cobaias: ")
+      leia(qtd)
+
+      escreval("Tipo de cobaia: ")
+      leia(tipos)
+
+      se tipos = "C" entao
+         coelhos <- coelhos + qtd
+      senao
+         se tipos = "R" entao
+            ratos <- ratos + qtd
+         senao
+            se tipos = "S" entao
+               sapos <- sapos + qtd
+            fimse
+         fimse
+      fimse
+
+      total <- total + qtd
+   fimpara
+
+   pc <- (coelhos / total) * 100
+   pr <- (ratos / total) * 100
+   ps <- (sapos / total) * 100
+
+   escreval
+   escreval("RELATORIO FINAL:")
+   escreval("Total: ", total, " cobaias")
+   escreval("Total de coelhos: ", coelhos)
+   escreval("Total de ratos: ", ratos)
+   escreval("Total de sapos: ", sapos)
+   escreval("Percentual de coelhos: ", pc:0:2)
+   escreval("Percentual de ratos: ", pr:0:2)
+   escreval("Percentual de sapos: ", ps:0:2)
+
+Fimalgoritmo
