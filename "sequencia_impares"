@@ -7,8 +7,8 @@ Inicio
       escreval("Digite o valor de X: ")
       leia(x)
 
-      para x de 1 ate x faca
-            se x % 2 = 1 entao
+      para i de 1 ate x faca
+            se i % 2 <> 1 entao
               escreval(x)
 fimse
 fimpara
