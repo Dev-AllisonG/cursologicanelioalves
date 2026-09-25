@@ -1,0 +1,52 @@
+Algoritmo "alturas"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 24/09/2026
+
+Var
+soma, n, i : inteiro
+contador : inteiro
+media, porcentagem : real
+nome : vetor[0..10] de caractere
+idade : vetor[0..10] de inteiro
+altura : vetor[0..10] de real
+
+Inicio
+    escreval("Quantas pessoas serao digitadas? ")
+    leia(n)
+
+    contador <- 0
+    soma <- 0
+
+    para i de 0 ate n-1 faca
+        escreval("Dados da ", i+1, " pessoa:")
+        escreval("Nome: ")
+        leia(nome[i])
+
+        escreval("idade: ")
+        leia(idade[i])
+
+        se idade[i] < 16 entao
+            contador <- contador + 1
+        fimse
+
+        escreval("altura: ")
+        leia(altura[i])
+
+        soma <- altura[i] + soma
+    fimpara
+
+    media <- soma / n
+    porcentagem <- contador / n * 100
+
+    escreval("A altura media é: ", media)
+    escreval("Pessoas com menos de 16 anos: ", porcentagem, "%")
+    para i de 0 ate n-1 faca
+    se idade[i] < 16 entao
+        escreval(nome[i])
+    fimse
+fimpara
+
+Fimalgoritmo
